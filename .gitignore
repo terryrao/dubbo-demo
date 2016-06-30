@@ -69,8 +69,3 @@ local.properties
 .idea
 target/
 *.classpath
-api/src/main/resources/
-api/src/test/
-common/src/
-core/src/
-server/src/test/
