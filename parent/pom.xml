@@ -35,6 +35,7 @@
         <commons-collections.version>3.2.2</commons-collections.version>
         <apache.common.lang.version>3.4</apache.common.lang.version>
         <mysql.connector.java>6.0.3</mysql.connector.java>
+        <druid.version>1.0.20</druid.version>
     </properties>
 
     <!--dependencyManagement 与 dependencies 的区别 在于-->
@@ -211,6 +212,13 @@
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql.connector.java}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/com.alibaba/druid -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>${druid.version}</version>
             </dependency>
 
 
