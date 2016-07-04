@@ -11,6 +11,8 @@
     <inceptionYear>2016</inceptionYear>
     <modules>
         <module>../api</module>
+        <module>../core</module>
+        <module>../server</module>
         <module>../client</module>
         <module>../common</module>
     </modules>
