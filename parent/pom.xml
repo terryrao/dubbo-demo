@@ -38,6 +38,8 @@
         <apache.common.lang.version>3.4</apache.common.lang.version>
         <mysql.connector.java>6.0.3</mysql.connector.java>
         <druid.version>1.0.20</druid.version>
+        <cumcuber.java8.version>1.2.4</cumcuber.java8.version>
+        <net.sf.ehcache.version>2.10.2.2.21</net.sf.ehcache.version>
     </properties>
 
     <!--dependencyManagement 与 dependencies 的区别 在于-->
@@ -230,7 +232,16 @@
                 <version>${druid.version}</version>
             </dependency>
 
-
+            <dependency>
+                <groupId>info.cukes</groupId>
+                <artifactId>cucumber-java8</artifactId>
+                <version>${cumcuber.java8.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>net.sf.ehcache</groupId>
+                <artifactId>ehcache</artifactId>
+                <version>${net.sf.ehcache.version}</version>
+            </dependency>
         </dependencies>
 
 
