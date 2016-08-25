@@ -12,6 +12,13 @@ public class User {
 
     private Boolean locked = Boolean.FALSE;
 
+    public User() {
+    }
+
+    public User(String userName, String password) {
+
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
